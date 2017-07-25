@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="194px" viewBox="0 0 119 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>lab0x0-vertical-en</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logos" transform="translate(-701.000000, -160.000000)">
+            <g id="normal-size" transform="translate(29.000000, 28.000000)">
+                <g id="vertical" transform="translate(665.000000, 96.000000)">
+                    <g id="vertical-en" transform="translate(7.000000, 36.000000)">
+                        <rect id="Rectangle-Copy" fill="#000000" x="0" y="0" width="119" height="194"></rect>
+                        <g id="Group" transform="translate(49.000000, 81.000000)" font-size="27.0230996" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" fill="#FFFFFF" font-weight="normal">
+                            <text id="x-copy">
+                                <tspan x="3.89235351" y="26">x</tspan>
+                            </text>
+                        </g>
+                        <text id="0-0" font-family="AndaleMono, Andale Mono" font-size="40.56" font-weight="normal" letter-spacing="-8.78799968" fill="#FFFFFF">
+                            <tspan x="24.0790007" y="113">0  </tspan>
+                            <tspan x="70.7348845" y="113">0</tspan>
+                        </text>
+                        <text id="LAB-ZERO" font-family="AndaleMono, Andale Mono" font-size="37" font-weight="normal" line-spacing="38" fill="#FFFFFF">
+                            <tspan x="26.6945801" y="69.1806641">LAB</tspan>
+                            <tspan x="93.3054199" y="74" font-size="30"></tspan>
+                            <tspan x="60" y="112" font-size="30" letter-spacing="-12"> </tspan>
+                            <tspan x="23.9941406" y="150" font-size="30">ZERO</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

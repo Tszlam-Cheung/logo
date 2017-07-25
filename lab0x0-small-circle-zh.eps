@@ -1,0 +1,844 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%APL_DSC_Encoding: UTF8
+%APLProducer: (Version 10.12.4 (Build 16E195) Quartz PS Context)
+%%Title: (Unknown)
+%%Creator: (Unknown)
+%%CreationDate: (Unknown)
+%%For: (Unknown)
+%%DocumentData: Clean7Bit
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox: 0 0 238 238
+%%EndComments
+%%BeginProlog
+%%BeginFile: cg-pdf.ps
+%%Copyright: Copyright 2000-2004 Apple Computer Incorporated.
+%%Copyright: All Rights Reserved.
+currentpacking true setpacking
+/cg_md 141 dict def
+cg_md begin
+/L3? languagelevel 3 ge def
+/bd{bind def}bind def
+/ld{load def}bd
+/xs{exch store}bd
+/xd{exch def}bd
+/cmmtx matrix def
+mark
+/sc/setcolor
+/scs/setcolorspace
+/dr/defineresource
+/fr/findresource
+/T/true
+/F/false
+/d/setdash
+/w/setlinewidth
+/J/setlinecap
+/j/setlinejoin
+/M/setmiterlimit
+/i/setflat
+/rc/rectclip
+/rf/rectfill
+/rs/rectstroke
+/f/fill
+/f*/eofill
+/sf/selectfont
+/s/show
+%/as/ashow
+/xS/xshow
+/yS/yshow
+/xyS/xyshow
+/S/stroke
+/m/moveto
+/l/lineto
+/c/curveto
+/h/closepath
+/n/newpath
+/q/gsave
+/Q/grestore
+counttomark 2 idiv
+%dup (number of ld's = )print == flush	% *** how many 
+{ld}repeat pop
+/SC{	% CSname
+    /ColorSpace fr scs
+}bd
+/sopr /setoverprint where{pop/setoverprint}{/pop}ifelse ld
+/soprm /setoverprintmode where{pop/setoverprintmode}{/pop}ifelse ld
+/cgmtx matrix def
+/sdmtx{cgmtx currentmatrix pop}bd
+/CM {cgmtx setmatrix}bd		% pop the ctm: our gstate ctm on host is now identity
+/cm {cmmtx astore CM concat}bd	% reset the matrix and then concat
+/W{clip newpath}bd
+/W*{eoclip newpath}bd
+
+statusdict begin product end dup (HP) anchorsearch{
+    pop pop pop	% pop off the search results
+    true
+}{
+    pop	% previous search result
+   (hp) anchorsearch{
+	pop pop true
+    }{
+	pop false
+    }ifelse
+}ifelse
+
+{	% HP is the product: we use this method of stroking because of a bug in their clone printers with certain T3 fonts
+    { 
+	{ % charCode Wx Wy
+	    pop pop % charCode
+	    (0)dup 0 4 -1 roll put
+	    F charpath
+	}cshow
+    }
+}{
+    {F charpath}
+}ifelse
+/cply exch bd
+/cps {cply stroke}bd
+/pgsave 0 def
+/bp{/pgsave save store}bd
+/ep{pgsave restore showpage}def		% dont' bind
+/re{4 2 roll m 1 index 0 rlineto 0 exch rlineto neg 0 rlineto h}bd
+
+/scrdict 10 dict def
+/scrmtx matrix def
+/patarray 0 def
+/createpat{patarray 3 1 roll put}bd
+/makepat{
+scrmtx astore pop
+gsave
+initgraphics
+CM 
+patarray exch get
+scrmtx
+makepattern
+grestore
+setpattern
+}bd
+
+/cg_BeginEPSF{
+    userdict save/cg_b4_Inc_state exch put
+    userdict/cg_endepsf/cg_EndEPSF load put
+    count userdict/cg_op_count 3 -1 roll put 
+    countdictstack dup array dictstack userdict/cg_dict_array 3 -1 roll put
+    3 sub{end}repeat
+    /showpage {} def
+    0 setgray 0 setlinecap 1 setlinewidth 0 setlinejoin
+    10 setmiterlimit [] 0 setdash newpath
+    false setstrokeadjust false setoverprint	% don't use F
+}bd
+/cg_EndEPSF{
+  countdictstack 3 sub { end } repeat
+  cg_dict_array 3 1 index length 3 sub getinterval
+  {begin}forall
+  count userdict/cg_op_count get sub{pop}repeat
+  userdict/cg_b4_Inc_state get restore
+  F setpacking
+}bd
+
+/cg_biproc{currentfile/RunLengthDecode filter}bd
+/cg_aiproc{currentfile/ASCII85Decode filter/RunLengthDecode filter}bd
+/ImageDataSource 0 def
+L3?{
+    /cg_mibiproc{pop pop/ImageDataSource{cg_biproc}def}bd
+    /cg_miaiproc{pop pop/ImageDataSource{cg_aiproc}def}bd
+}{
+    /ImageBandMask 0 def
+    /ImageBandData 0 def
+    /cg_mibiproc{
+	string/ImageBandMask xs
+	string/ImageBandData xs
+	/ImageDataSource{[currentfile/RunLengthDecode filter dup ImageBandMask/readstring cvx
+	    /pop cvx dup ImageBandData/readstring cvx/pop cvx]cvx bind}bd
+    }bd
+    /cg_miaiproc{	
+	string/ImageBandMask xs
+	string/ImageBandData xs
+	/ImageDataSource{[currentfile/ASCII85Decode filter/RunLengthDecode filter
+	    dup ImageBandMask/readstring cvx
+	    /pop cvx dup ImageBandData/readstring cvx/pop cvx]cvx bind}bd
+    }bd
+}ifelse
+/imsave 0 def
+/BI{save/imsave xd mark}bd
+/EI{imsave restore}bd
+/ID{
+counttomark 2 idiv
+dup 2 add	% leave room for imagetype and imagematrix
+dict begin
+{def} repeat
+pop		% remove mark
+/ImageType 1 def
+/ImageMatrix[Width 0 0 Height neg 0 Height]def
+currentdict dup/ImageMask known{ImageMask}{F}ifelse exch
+% currentdict on stack
+L3?{
+    dup/MaskedImage known
+    { 
+	pop
+	<<
+	    /ImageType 3
+	    /InterleaveType 2
+	    /DataDict currentdict
+	    /MaskDict
+	    <<  /ImageType 1
+		/Width Width
+		/Height Height
+		/ImageMatrix ImageMatrix
+		/BitsPerComponent 1
+		/Decode [0 1]
+		currentdict/Interpolate known
+		{/Interpolate Interpolate}if
+	    >>
+	>>
+    }if
+}if
+exch
+{imagemask}{image}ifelse	
+end	% pop imagedict from dict stack
+}bd
+
+/cguidfix{statusdict begin mark version end
+{cvr}stopped{cleartomark 0}{exch pop}ifelse
+2012 lt{dup findfont dup length dict begin
+{1 index/FID ne 2 index/UniqueID ne and
+{def} {pop pop} ifelse}forall
+currentdict end definefont pop
+}{pop}ifelse
+}bd
+/t_array 0 def
+/t_i 0 def
+/t_c 1 string def
+/x_proc{ % x y
+    exch t_array t_i get add exch moveto
+    /t_i t_i 1 add store
+}bd
+/y_proc{ % x y
+    t_array t_i get add moveto
+    /t_i t_i 1 add store
+}bd
+/xy_proc{
+        % x y
+	t_array t_i 2 copy 1 add get 3 1 roll get 
+	4 -1 roll add 3 1 roll add moveto
+	/t_i t_i 2 add store
+}bd
+/sop 0 def		% don't bind sop
+/cp_proc/x_proc ld 	% default moveto proc is for xwidths only
+/base_charpath		% string array
+{
+    /t_array xs
+    /t_i 0 def
+    { % char
+	t_c 0 3 -1 roll put
+        currentpoint
+	t_c cply sop
+        cp_proc
+    }forall
+    /t_array 0 def
+}bd
+/sop/stroke ld		% default sop is stroke. Done here so we don't bind in /base_charpath 
+
+% default sop is stroke
+/nop{}def
+/xsp/base_charpath ld
+/ysp{/cp_proc/y_proc ld base_charpath/cp_proc/x_proc ld}bd
+/xysp{/cp_proc/xy_proc ld base_charpath/cp_proc/x_proc ld}bd
+/xmp{/sop/nop ld /cp_proc/x_proc ld base_charpath/sop/stroke ld}bd
+/ymp{/sop/nop ld /cp_proc/y_proc ld base_charpath/sop/stroke ld}bd
+/xymp{/sop/nop ld /cp_proc/xy_proc ld base_charpath/sop/stroke ld}bd
+/refnt{ % newname encoding fontname
+findfont dup length dict copy dup
+/Encoding 4 -1 roll put 
+definefont pop
+}bd
+/renmfont{ % newname fontname
+findfont dup length dict copy definefont pop
+}bd
+
+L3? dup dup{save exch}if
+
+% languagelevel2 ONLY code goes here
+
+/Range 0 def
+/DataSource 0 def
+/val 0 def
+/nRange 0 def
+/mulRange 0 def
+/d0 0 def
+/r0 0 def
+/di 0 def
+/ri 0 def
+/a0 0 def
+/a1 0 def
+/r1 0 def
+/r2 0 def
+/dx 0 def
+/Nsteps 0 def
+/sh3tp 0 def
+/ymax 0 def
+/ymin 0 def
+/xmax 0 def
+/xmin 0 def
+
+/setupFunEval % funDict -- 	% this calculates and sets up a function dict for evaulation.
+{
+    begin
+	/nRange Range length 2 idiv store
+	/mulRange   % precompute the range data needed to map a sample value from the table to a range value
+		    % this data looks like [ range0mul range0min range1mul range1min ... rangeN-1mul rangeN-1min ]
+	[ 
+	    0 1 nRange 1 sub
+	    { % index
+		    2 mul/nDim2 xd		% 2*dimension# we are dealing with
+		    Range nDim2 get		% ymin
+		    Range nDim2 1 add get	% ymin ymax 
+		    1 index sub			% ymin (ymax-ymin)
+						% xmin = 0, xmax = 255 (2^bitspersample - 1)
+		    255 div			% ymin (ymax-ymin)/(xmax - xmin)
+		    exch			% (ymax-ymin)/(xmax - xmin) ymin
+	    }for
+	]store
+    end
+}bd
+
+/FunEval % val1 fundict -> comp1 comp2 ... compN
+{
+    begin
+	% the value passed in is the base index into the table
+	nRange mul /val xd	% compute the actual index to the table
+				% since there are nRange entries per base index
+	0 1 nRange 1 sub
+	{
+	    dup 2 mul/nDim2 xd % dim
+	    val	% base value to use to do our lookup
+	    add DataSource exch get %  lookedupval
+	    mulRange nDim2 get mul 	% lookedupval*(ymax-ymin)/(xmax-xmin)
+	    mulRange nDim2 1 add get % lookedupval*(ymax-ymin)/(xmax-xmin) ymin
+	    add % interpolated result
+	}for	% comp1 comp2 ... compN
+    end
+}bd
+
+/max % a b -> max(a, b)
+{
+	2 copy lt
+	{exch pop}{pop}ifelse
+}bd
+
+/sh2
+{	% emulation of shading type 2. Assumes shading dictionary is top dictionary on the dict stack
+	/Coords load aload pop 	% x0 y0 x1 y1
+	3 index 3 index translate	% origin is now at beginning point of shading
+					% x0 y0 x1 y1
+	3 -1 roll sub	% x0 x1 y1-y0
+	3 1 roll exch 	% y1-y0 x1 x0
+	sub				% y1-y0 x1-x0
+	2 copy
+	dup mul exch dup mul add sqrt	% length of segment between two points
+	dup
+	scale  
+	atan	% atan (dy/dx)
+	%dup (rotation angle = )print ==
+	rotate		% now line between 0,0 and 1,0 is the line perpendicular to which the axial lines are drawn					
+	
+	/Function load setupFunEval	% may need to setup function dictionary by calling setupFunEval
+	
+	% this is now specific to axial shadings. Compute the maximum bounds to fill
+	clippath {pathbbox}stopped {0 0 0 0}if newpath 	% x0 y0 x1 y1
+	/ymax xs
+	/xmax xs
+	/ymin xs
+	/xmin xs
+	currentdict/Extend known
+	{
+		/Extend load 0 get
+		{	
+			0/Function load FunEval sc	% evaluate the function to get a color and set it
+			xmin ymin xmin abs ymax ymin sub rectfill
+		}if
+	}if
+	% paint the rects. The sampling frequency is that of our table
+	/Nsteps/Function load/Size get 0 get 1 sub store
+	/dx 1 Nsteps div store
+	gsave
+		/di ymax ymin sub store
+		/Function load
+		% loop Nsteps + 1 times, incrementing the index by 1 each time
+		0 1 Nsteps
+		{
+			1 index FunEval sc
+			0 ymin dx di rectfill
+			dx 0 translate
+		}for
+		pop	% pop our function
+	grestore	% origin is back to start point
+	currentdict/Extend known
+	{
+		/Extend load 1 get
+		{	
+			Nsteps/Function load FunEval sc	% last element
+			1 ymin xmax 1 sub abs ymax ymin sub rectfill
+		}if
+	}if
+}bd
+
+/shp	% this paints our shape for shading type 3
+{	% x1 r1 x0 r0 -
+	4 copy
+
+	% fill interior arc
+	dup 0 gt{
+		0 exch a1 a0 arc
+	}{
+		pop 0 moveto
+	}ifelse
+
+	dup 0 gt{
+		0 exch a0 a1 arcn
+	}{
+		pop 0 lineto
+	}ifelse
+	
+	fill
+
+	% fill exterior arc
+	dup 0 gt{
+		0 exch a0 a1 arc
+	}{
+		pop 0 moveto
+	}ifelse
+
+	dup 0 gt{
+		0 exch a1 a0 arcn
+	}{
+		pop 0 lineto
+	}ifelse
+	
+	fill
+}bd
+
+/calcmaxs
+{	% calculate maximum distance vector from origin to corner points
+	% of bbox
+	xmin dup mul ymin dup mul add sqrt		% (xmin2 + ymin2)
+	xmax dup mul ymin dup mul add sqrt		% (xmax2 + ymin2)
+	xmin dup mul ymax dup mul add sqrt		% (xmin2 + ymax2)
+	xmax dup mul ymax dup mul add sqrt		% (xmax2 + ymax2)
+	max max max								% maximum value
+}bd
+
+/sh3
+{	% emulation of shading type 3. Assumes shading dictionary is top dictionary on the dict stack
+	/Coords load aload pop 	% x0 y0 r1 x1 y1 r2
+	5 index 5 index translate	% origin is now at first circle origin
+	3 -1 roll 6 -1 roll sub		% y0 r1 y1 r2 dx
+	3 -1 roll 5 -1 roll sub		% r1 r2 dx dy
+	2 copy dup mul exch dup mul add sqrt
+	/dx xs						% r1 r2 dx dy
+	2 copy 0 ne exch 0 ne or
+	{
+		% r1 r2 dx dy
+		exch atan rotate	% we are now rotated so dy is zero and positive values of dx move us as expected
+	}{
+		pop pop
+	}ifelse
+	% r1 r2		
+	/r2 xs
+	/r1 xs
+	/Function load 
+	dup/Size get 0 get 1 sub	% this is the size of our table minus 1
+	/Nsteps xs		% at some point we should optimize this better so NSteps is based on needed steps for the device
+	setupFunEval		% may need to setup function dictionary by calling setupFunEval
+	% determine the case:
+	% case 0: circle1 inside circle2
+	% case 1: circle 2 inside circle 1
+	% case 2: r1 = r2 
+	% case 3: r1 != r2
+	dx r2 add r1 lt{
+		% circle 2 inside of circle 1
+		0 
+	}{
+		dx r1 add r2 le
+		{ % circle 1 inside of circle 2
+			1
+		}{ % circles don't contain each other
+			r1 r2 eq
+			{	% equal
+				2
+			}{ % r1 != r2
+				3
+			}ifelse		
+		}ifelse
+	}ifelse
+	/sh3tp xs		% sh3tp has the number of our different cases
+	clippath {pathbbox}stopped {0 0 0 0}if 
+	newpath 	% x0 y0 x1 y1
+	/ymax xs
+	/xmax xs
+	/ymin xs
+	/xmin xs
+
+	% Arc angle atan( sqrt((dx*dx + dy*dy) - dr*dr), dr)
+	dx dup mul r2 r1 sub dup mul sub dup 0 gt
+	{
+		sqrt r2 r1 sub atan
+		/a0 exch 180 exch sub store 
+		/a1 a0 neg store 
+	}{
+		pop
+		/a0 0 store
+		/a1 360 store		
+	}ifelse		
+
+	currentdict/Extend known
+	{
+		/Extend load 0 get r1 0 gt and	% no need to extend if the radius of the first end is 0
+		{	
+			0/Function load FunEval sc	% evaluate the function to get a color and set it
+			% case 0: circle1 inside circle2
+			% case 1: circle 2 inside circle 1
+			% case 2: circles don't contain each other and r1 == r2
+			% case 3: circles don't contain each other and r1 != r2
+			{ 
+				{	% case 0
+					dx 0 r1 360 0 arcn
+					xmin ymin moveto
+					xmax ymin lineto
+					xmax ymax lineto
+					xmin ymax lineto
+					xmin ymin lineto
+					eofill		% for the bigger radius we fill everything except our circle
+				}
+				{	% case 1
+					r1 0 gt{0 0 r1 0 360 arc fill}if
+				}
+				{	% case 2
+					% r1 == r2, extend 0
+					% r3 = r, x3 = -(abs(minx) + r), x1 = 0
+				
+					% x(i+1) r(i+1) x(i) r(i) shp
+					0 r1 xmin abs r1 add neg r1 shp
+				}
+				{	% case 3
+					% no containment, r1 != r2
+				
+					r2 r1 gt{	% the endpoint we are drawing is that with a circle of zero radius
+						% x(i+1) r(i+1) x(i) r(i) shp
+						0 r1
+						r1 neg r2 r1 sub div dx mul	% this is point of beginning circle
+						0	% point of ending circle
+						shp	% takes x(i+1) r(i+1) x(i) r(i)
+					}{	% the first circle is the bigger of the two
+						% we find a circle on our line which is outside the bbox in the
+						% negative direction
+						% x(i+1) r(i+1) x(i) r(i) shp
+						0 r1 calcmaxs	% 0 r1 maxs
+						dup
+						% calculating xs: (-(maxs+r2)*x2)/(x2-(r1-r2))
+						r2 add dx mul dx r1 r2 sub sub div
+						neg				% maxs xs'
+						exch 1 index	% xs' maxs xs'
+						abs exch sub
+						shp
+					}ifelse
+				} 
+			}sh3tp get exec	% execute the extend at beginning proc for our shading type
+		}if
+	}if
+
+	% now do the shading
+	/d0 0 store
+	/r0 r1 store
+	/di dx Nsteps div store
+	/ri r2 r1 sub Nsteps div store 
+	/Function load 
+	0 1 Nsteps
+	{	% function t(i)
+		1 index FunEval sc
+		d0 di add r0 ri add d0 r0 shp
+		{
+		% fill interior arc
+		d0 0 r0 a1 a0 arc
+		d0 di add 0 r0 ri add a0 a1 arcn
+		fill
+		
+		% fill exterior arc
+		d0 0 r0 a0 a1 arc
+		d0 di add 0 r0 ri add a1 a0 arcn
+		fill
+		}pop
+		
+		% advance to next
+		/d0 d0 di add store
+		/r0 r0 ri add store
+	}for
+	pop	% pop our function dict
+
+	% handle Extend
+	currentdict/Extend known
+	{
+		/Extend load 1 get r2 0 gt and	% no need to extend if the radius of the last end is 0
+		{	
+			Nsteps/Function load FunEval sc	% last element
+			% case 0: circle1 inside circle2
+			% case 1: circle 2 inside circle 1
+			% case 2: circles don't contain each other and r1 == r2
+			% case 3: circles don't contain each other and r1 != r2
+			{ 
+				{
+					dx 0 r2 0 360 arc fill
+				} 
+				{
+					dx 0 r2 360 0 arcn
+					xmin ymin moveto
+					xmax ymin lineto
+					xmax ymax lineto
+					xmin ymax lineto
+					xmin ymin lineto
+					eofill		% for the bigger radius we fill everything except our circle
+				} 
+				{	% r1 == r2, extend 1
+					% r3 = r, x3 = (abs(xmax) + r), x1 = dx
+					% x(i+1) r(i+1) x(i) r(i) shp
+					xmax abs r1 add r1 dx r1 shp
+				}	
+				{	% no containment, r1 != r2
+			
+					r2 r1 gt{
+						% we find a circle on our line which is outside the bbox in the
+						% positive direction
+						% x(i+1) r(i+1) x(i) r(i) shp
+						calcmaxs dup	% maxs maxs
+						% calculating xs: ((maxs+r1)*x2)/(x2-(r2-r1))
+						r1 add dx mul dx r2 r1 sub sub div	% maxs xs
+						exch 1 index	% xs maxs xs
+						exch sub
+						dx r2
+						shp
+					}{	% the endpoint we are drawing is that with a circle of zero radius
+						% x(i+1) r(i+1) x(i) r(i) shp
+						r1 neg r2 r1 sub div dx mul	% this is point of ending circle
+						0		% radius of ending circle
+						dx 		% point of starting circle
+						r2		% radius of starting circle
+						shp
+					}ifelse
+				}
+			}			
+			sh3tp get exec	% execute the extend at end proc for our shading type
+		}if
+	}if
+}bd
+/sh		% emulation of shfill operator for type 2 and type 3 shadings based on type 0 functions
+{	% shadingDict --
+	begin
+		/ShadingType load dup dup 2 eq exch 3 eq or
+		{	% shadingtype
+			gsave
+				newpath
+				/ColorSpace load scs
+				currentdict/BBox known
+				{
+					/BBox load aload pop	% llx lly urx ury
+					2 index sub				% llx lly urx ury-lly
+					3 index					% llx lly urx ury-lly llx
+					3 -1 roll exch sub 
+					exch rectclip
+				}if
+				2 eq
+				{sh2}{sh3}ifelse
+			grestore
+		}{
+			% shadingtype
+			pop 
+			(DEBUG: shading type unimplemented\n)print flush
+		}ifelse
+	end
+}bd
+
+% end of language level 2 ONLY code
+
+{restore}if not dup{save exch}if
+% languagelevel3 ONLY code goes here
+	L3?{	% we do these loads conditionally or else they will fail on a level 2 printer
+		/sh/shfill ld
+		/csq/clipsave ld
+		/csQ/cliprestore ld
+	}if
+{restore}if
+
+%currentdict dup maxlength exch length sub (number of extra slots in md = )print == flush	% *** how many entries are free
+end
+setpacking
+% count 0 ne { pstack(***extras on stack during prolog execution***\n)print flush}if	% *** BARK if anything is left on stack
+%%EndFile
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%Page: 1 1
+%%PageBoundingBox: 0 0 238 238
+%%BeginPageSetup
+cg_md begin
+bp
+sdmtx
+%RBIBeginFontSubset: IWSHUJ+PingFangSC-Thin
+%!FontType1-1.0: AAAAAE+PingFangHK-Thin 001.003%%CreationDate: 7/25/17% Copyright 2017 Apple Inc. and its licensors, all rights reserved.11 dict begin/FontInfo 9 dict dup begin/version (001.003) readonly def/FullName (PingFangHK-Thin) readonly def/Weight (SnapShot) readonly def/isFixedPitch false def/UnderlinePosition -150 def/UnderlineThickness 27 defend readonly def/FontName /AAAAAE+PingFangHK-Thin def/PaintType 0 def/FontType 1 def/FontMatrix [0.0010 0 0 0.0010 0 0] readonly def/Encoding 256 array 0 1 255 {1 index exch /.notdef put} fordup 1 /cid7533 putreadonly def/FontBBox {-92 -232 1112 972} readonly defcurrentdict endcurrentfile eexecD9D66F633B846A989B9974B0179FC6CC4458BB4CB99E3608702C78822367AAF89059868F63F93207640A6BD5DA214789139C491E02A37BF3866F2964E8D690D48D9F6C4A5EC22355F8123573812483E06B968AE84B5F20A982A0E6576475351697AB8C6EA040355C5542F297D7A3AF28AB93EA0771E0D56DBF00F7CA9CE9FB9FC2E0ECB00D04D5F5F3F24B987B546D6274971A477DEE12C44623C180BCDBA21172627610C4736632D1A4693E79719C3BC43DF5330790A52DCD4CF455ACC213F6B1C4BA249179DB360225568161552A16682E3A3604BFC39D571B1F8F18375BEBCD733EC3686D1BE04DD7A740E7D3C5D7A9AD72FC3DFC361DA7DF00871BDFC7F1F993430DBBEE0EB819D8EB8DE0F2C8DA12440C49774B70463BA39FD70A5C3074E9C1B99BF5E4AA4AE20184DEA72F5BFD910BDBA899FB94B7F91F6A7E42A862D89852D2A80F179EC4984A3AB3A3BB0140EAA9A7F3DB4CF2A9857241821BC4BBACDBA468519D6399B1B44C7560DA0BAC5CB7CC0E60D8A2A31596F45FAB83DA32635052464E83D1635A5600E0A52FD9D7ABB13C73FE949291EB103F93C303D4CD5820AB511F320462339A0648063CDBFDE5755B6FE7AF1826649D02EEC6DF4FAD1B37464DE5FAA32A6390C50F57FDCC73ED014FC71F3C0131A7F09E1EAB9EA13AF93EC143FC47FF723C9CFBFC438DD8323B1E5B7C5A5A7349AEEA0CFE948264A5EAD9EAC1D291ADF0834CB491F76C025D3C0BE9DF8BC556700B0B6F64C15F86B62425AF3B8B9479262DAB0103E82B4DFF3F84F5CCF9AD11DD9A15A2D5FFEF76F7E04ACBE2413119EC84BC52106FF228DF6BFB05038BC1C08521482E045840F771B6B6F9FC747F20D5278A9CD22372A6A692B96CEE89E1BC111A520BF3CE4891DFBE86D7492C23E34CC0BEEFAA0403E2AC21FD33D7A7FD099DCACCE702B9557F29C7A24697FFDB93C07B2249CC16E5917961D3F7E4CF30695E33F661F72B79978B6D9C1ACF32F01B1BEC8D2592A0F6568390A730D9841E3E657AA080041DCE460354B0EAD4E2B633D321CA58E1EA432864D9ACCDCDF10003335C2DF2E568F991D925A9D6F6D06F2F203EF5160892CF6AEFF357098341106B06DA4461FF0C4062CD78E2ABAD1AC0129D4453556BDDA384F904DB8C7FD52FE6D45CEEEBEFBABC2E88504C9838AC49A6DD0C7DE1778D67B8B04CD67384C9D9AF35FB01943A0398045DBA7827A7682669E06F9C7EE5CB46F0B96E43D93DE67C167DF9235ACCB0E5814218A9DD139655AC2FA43C186A588BEAF84567C5E2004D4D1841F89F5FEAADEA3C356497788DD535918D6B70F229D06CA61604AA8D79D4646D11ACF98A69521C51B6A4BFD44765F6AFEB892D24EC266D9DCBC25B83C411021ACD11D0927F94CCE1765367F74B913FE09C83653FD690ADBDB7B523ED5B2232D94B9374B6CACB86F5233FF03F3CB6E74D915EEB883570A6B9D7C42529DE0530A46FDF835DDC48F40D4FE96C8BE2D83EA51633BDCDE171B326B78361EBC2D99916E357EA4DC0208166BC07B8B8F88ED577D4FA1372A688EF245893A9A8654E8AEBF8D1285EBEDD1D63AA17EB285F098C562114F0EF0DF6C2509E72AAFF647219B40D291CD8ABCDF9C5CC3B00E26A27B050F5B6C0983DC1E7326EBE0D442DF8E9B7A77CE22429FDB29F08AD9EA644591BC1E6B312A9AF7CFB48157855C2C0D1F824620A3B3CA594EAB52813D3F390D568E779EA56C0011D2E0D229C74724CB5E07DAA9A72D1950FB9255FEEF3E2A9BB974F594861BE162465B0CB7CF0D5474B5FD7A19F02F0159D18625F22390869D89BFB90A938557459E0F39351F1CCB7F141D4899B16597C69D0D8375B7A147C6F87BC1F34629576C1EB79882CE829481B240FF9BAE57D97B9A0C28392B22263F07BD1A7F95902A70919DC352B389CE061C288F3BAD71DA4BBDFA33C49B75EF1B9282238D5E5F13485FC0BB836C0B07591955B070B64DE596BDBA674A31380AAD2387FDA4077F0C99DB67BC07FF850297703DA65ED7E4181F59EAE71785B9ADC17D1F1725727129777C768381DF6D024DF9791F8B5FC73AA5A0C979ADB40D653D23274077CDFA92572B8268DF85D274DE57CB6CD611C878B1817FDF64A7EA3999C7D482BFD71D709B434D702AB4B8E8495A25B7798AFCAA7630D4EC6DC475DE9F995ADE0C6E58BE0B42BDCF9251D9749E05453350403D400380521B85031C22349F90E748915CD800B534EE5746B4F05C2D4C9BBE536BA24E66FA5C9FFEBA2757FD789D7AAB0D06237454ED47C6FDE04BD8A1F35F185CF498710F5D4D887AB336F5DC51CAE7E4907BB0AE4A1CB1A49E838CF8F8D820327F2B3E6D6C1D2A7E77ECB0DDC49764FCD9E3C906B567130C14D468D827ADBA18C060FC9C7431AC0346810985765501456792DF558E7485E296A94A64E2D5AFB1B4E3D7861E7142670E0A3ED38ACB684A942017581B13368F11593BEFB6159ABD1FF69DE988D62A360FED2D1BC14933A4E2D94ABB11AFCEF9693E7723D8EEA9514154A5358F906607C0DD81B1EAFE33B001309949139CC49DF1462C721A3708AB513F1682A006EEE62F6849A56430119F112D98E0F4A8A3078C72D5B6488B5DE0E2E81BA2001AF637CCC9A0353E826CE08E5237139EF5B04DB84E755EBFF8EE1984E7C6F8A8AED66DA8F69C73AA5B142E528D2272AFF4507E20765B11C0FDC1932BC0748ED08A2A44A7940CF78ED7D376B11E62EBEA5A11D19A3AF5D9D3792CBF94363699034880937C76DC4D97B031402CF9734DF441F5F37EFD6A708491235DF5D4BE28C8CDD0E286A5DC2BCC97B176310ACF43DE01CD1CBE4012C83CFC260B7C7B73FA2F316C018CA5AE34CBD8F2E18AA7FA902519BADDA28814A570404867A202C7707A00FC0DEB5DDDA05E7F6723CF476BEECC2E001E2C34803E2E94A080D73259B5B3E8AFC1387E761343282190C827CC667BD25AB7B133C9CC0F00646118FA14EF76C8064EEEAE25E086DDB7FFD778E6B43FA44EE3230894533BFBF933AFAE16114159896FCEC53DE9B3B4D43EC56570D466D13B84688D1052B032251A050F85CBF6C46304FA652AE5CC3DDBD8D5347D642C1D91BC4BB8167116A1AA3CF2C4E5A19DAF7E0ECF4D86E44B4CAB15D5108F8AB7A0D682EFA40C856327C52920C786E38C7CA37C066D6BD91C42796641D1BD41CC977493E7F98A66D2443F5EB2650DBEAD49C03C3B09B179CBA0DBD8C89B4E89BFF25569E69C1D0E0960FE5DFC253326E5A5D6AE07A35F97AB9E7087F4986361E9C891E0A46B7CC794C13642341ED6A49DC0C4927F5AE6D55651E47FF33EF9673105001D332205D4F3D665B3989A58C83E20494216A8DF57BAC73A0DF66DF8F8446558F3E1B7DB3C5295230DD072D411CA6830360396026EC1C7B9B942EF1F7A48309024BDAC02A105E1BECEAFD4F1F1C1DA28C30B315A9AEAD11EABB5A3F7840210B8A08E03CB6A0755A49BA94540E81DA6AF8B522C89FABD7934D2BCB22CCDD3535B71D8A7E3CFF8A3E2C47CB88E505CF4C2E4BCD227CE091345D46575F61ADF825DC85CAF3885799853504E8320B3440670265B38A9889A79766E8B3A3D3FA2D149B9368E46C6DE52F465A99DF3306D88FCBAD385293A75939341C96BCC34E761B2FC4A97B5239BEA4AF24DB4D3D6BA8A4A7E1639BB7BDCEDF7FB70C04687BBC2EC25249FA0BCFB261110D67CCC7D9224E2A42C76AADA4FB8627D46858C74DE89407EEB93F9166C36E8386A72C73A938AFC963CEDE69326283226BBC03BFF69035F77A6B6C6132EA478849FFA323E4FF7A62CDC5BBC98D2CE0CCC75E8B3857475FCCF9D381DFB6B4F1541B3EC4EAB82B2354DF51C4C77DC1508AA57DB98C36BF17B556658CB613AE66611A63FCE9315120C29134973DA4D52D04954247855B36063B1AED4B6EFC9BEBA693574EE7B4EC85C8D90A6163F7270FFD6F2AD10247C56A7F7B7357A7BBE96A47A42EA4A6EDFF915D066C706576B4845A752A0E09476D0BEBB2A7F9F245508D7099FB0D3B009AA5632A0E094740F42764D25239060BBBA018E7B5336EC169B496A42091F5FEFB9E557FDE47F30551BE633F4934EE38836D122C6B55BA84BAE8B85D55EFA0297D0ECB2F8E33B3AD755CD3D4D50BD08B7AE26B8410B279BCE94B44A668810935278241D0AB0B085DDA3C43165FAC9B70315AC9A642DCC5B19436698647904E0AEF0FECD0488146305824CF753C74F8F3D1AA886D75B664CBD3E5C980C4748F5BA1A497F2B688A4A2F994DFFF9A737489BBA334B25270C1EF48D1B08DA04BB84574F3CC89121025BB7D4F379684EDD321698A21AD5365C84A330DF08A95519217413C0A088E006F7659729F77707B2742111C342BFABCC953946F7AA330B071058FCF947341FC3D5ABEE848433F46991550130AA2D5D19BEDFAFD58E275C521AFF08229197B39661BADB95E357F892444AEF582F393729413C6596E03C8529870731E10141B75798D427890E40B3B5A9BCFC745EDC57F4FC2CF0A83E43AE1AB3DCE93F3E8C8FDF880A3506353DD0B3ED01B63D07FFAC4A41819026A8820DACC012C6F122205EFC0A03BBE8DCEDB0610A3D3AF1E9840DEEEAAD664EBC6CD4ABB1A5F0BD92FAC594EA9FB0CD8729F5ABC2ED21A56C007096DF7C2A4C8A00FBCE32B35B1E3B4904CAD433A003887B1C07097F3D6FC6B33A4C3EDE383E4243EDE2DAA9CFE64901075C71702291643B366CD5896D0737548C7E0FF947FD4C908D17A98AD4EC33E36DE4848FCC3FF12D1EE0C29909EB27397EF4E77C03E6D83E66D9EB3D4FD286C0B94DF0E46BA18DBB4F4227B14090E0B07B8C6E7CCBDA2FA2E16DB8E845EA2F49CB12D99024A2D74CE73B9ACA21E972DD7305DB734D38CBCDA18CA7B0F7FB576F1DFCE5B256CDF0AF881B8FE9E4BD5E0B99B6025FA7E7B2F2314497D1172D6775891A3F42CFA6461A3BA3164A2CED97246CE9B4FFC8C58FF1EF5E7EA43E972D5B38215B32CBEA10F4174D6CF93E5AD2983C3E93F3D6174945E3E9E534B2DF161ADD02259F2A452A4A1ADB6E40CAEA3BD30858732657ECC28D1BB965F8CFFE6A01F2DE3DCC571E749EED73297B744EEB0C53F533D02052AC827007750022F061E4BAA2F58CCBD7053CFE732718426001424D9FE9D3F314D5DCC2AD81A2384C9DE7527BB06075509C2FE532CF0E3354767107F8EE4CBEB4E7F8111005B3A969827347B8F27E8DCCD28196693F8451B3091F8284D290358A32C7A5090E6ED2CC886FF199DFF9EAF646175FD06FC0F90AE9782DE6185409A682F57B8BB652029CE16054B3932204E041F135490CD1BBD2B7F2555E3D20955DA875AD85B0565CD58C008DBBF9A555C10A22EC776B4C78A56C3AE545ECF832DBFD16608ACE8754F1A940830EFB4AA3C125D5D94D31ED7AB09D1AF549579230470CAAAA63CD1717B3ADFA1613ACE7A0E08899FBA0E9B7058FA47270610A229E4BE1ADFAB994E78BCEE02316ABBB3FC1244415C52ACF4FC3D14CEC1D0BCE078549452AA4A668F7AF73F076864D7901823260D12FD63743CDFA0CC65C45F5F3212C591969B9E85921C44D228E9CB656E1DD54EBE9F01B5F6223B91F516C56975BB75965E786D20A593B33BA87C1E569A3504E1A58F637F7F1EF1F34C87C1D96B9CE9CE4592538E15062E8B2DBB403996C471B8F836BE7299AF3B774915C79BBAE62CEA72C630562AAB8A8995AF1C0EFD13CD18AB00133CFA72B1D1FF0F0FDD5F4FD06A8F5F3639A15E64DF23778A4E5BBE8456943CB7C1A3654FBABCBB7E990C1F13F23DBB7506D37DF678CF285C4BC36862713DA42BA9C1B3D5A403032D5E59B11758D746F5EC5D0B91AC1F79291CE1C0264B6271BE359474D9E28F7BF00F5E49DAFC0E3E31FF2774BF5F4FA1FAE6B17D99E108FB4FF8BD0F182A4EE7019E8632A863873291B843F5C779203D257C1B47128E05EEA693EB4B57A68A43BA85D211D88EB81602DE2F6029420D5F3A51ADC7C8BE4C3FFFBB961FB69B8B536374CCD5684D77129EFAF4A892312684372E4878861A6B43B07C74E6356A8F36B0446B32EEE62E08F02EF159516DDDD98E6EEA27B3AF97C06AB69B51125C3D1FD4EDAD30C8C2FA39555C6FA32E47C6CE75F6002C8249C637BEC5114A17144EB3308F97B67CFA98CA66A649EEA6AD91126F65A92921D22A9DDA6FBA41ED9AD3B22BEE36B7D0273F91C25391D129E2429E73A68E3AC0532672A538A224E20D1FC1999F10985EAAAF7E868C9839B39CD0385516D6F64D16393E37B05E1E784F9B4441F07873ACC811745F261B73877304EB81F59FBCFF400748AEBC97AF31E15DA7D952B7C293D9E9D4B9A90E62499ED1A92F68DF8ACE205F61E26DB281D9F37AB6EF41A6B42764D06F2E82DA2B35D861E7FE66E1045A32C64DCA9C2685B2C3C78C8CC80A2BE09622B7CC461DEF6BA4700B1A564B0317AA37A64978B96EBACB0F317F24B490772158846886B63F6919F8CEBD2BEF3E40575FED8886FA3F628F195B8CF2227427C9D8B53DBDE875AEC06196CB8F0D33BF10B6865893F2704BDF534C1BB575BDEE16A14EBC2161C733FBBD92623AEF9919A67725DC0944F8E25582F100B76E55E2E18A0CB74CA53785277EC765D28FFC001AC11EAAA10CAF270658211040CF99363BB7B7E42788C326EA035E3ECDABDB0B772CFC58D200217CE6CB716C5D11B5A47050B8BBE507634715AEF96DC152AA310CE4310B3076001DE92E53AE5F52C039B1889AF0FC0856746B3371E843699957E3ED80FAC96A4B8BD508754AE3511F8388C692FC7EA4C488CDFDCB80A51E642F75F41343445A3D0920411605719FCED20B0433F82A5A4557BEB3CC4BE974357C53315134D61F3F7B5BFA5F0AA32A9C39516DA561E1A0BD858E0DBB06EEB4BC120E1F646CCF93032350576CA90273A8EB9DF95D50B3BC8CB898874C142A87DD9328553CD9602A2C3DBC8DDB2D61C8F19D12910B9B0EDB9BAE0A84FB00B76C8AF95FB4597349105CC22399FE8C8A23960EEFECF9A0A91C0473F0DD3934F40729AB1AC7D567A78B4E19232573F284A3A9E591F8C1179540A5E08AB97C4B2D9B1F7A007C9C9C13FC6F978E9439F69E355E38AB0C05425D6B8ADD70609BE5733C2A170E558A87F5E7C601DDD06491BA1ADA4A6E649915036B7015715FC363F42B4A204BB2158AA0B0FCECD810F4165CB0F06B81ED3202F255BD3B519B6E4B787ADED209992EE2C487B6BCFC251F9EDBC4A4EF375E9977B4D87403A13789BDED9B5BEE596B25807448BD0D2E301544BECF497FD475B85DFEF52AF3CE2AD3879EFB2375CC1DB1496419C2AE94B605E6A17FA968DCC97A19BA2DBEAFF5406BB4C1510327807DA75BBBA44048353969E8A5ECDBF7972F84E28CD22D33749E74CF87B3EB52D117149C14D1BA55B6E18B94F39C61125609B53A15BC4620A5A9A20445E5DC3FC745AB1FCDC83EFBC4844CE9D790D2EA101E4326E0B6C9D7F7446B613874518774B9AAFCD5B7B995849755E587B3070A981D3A459A74C65741C5D7BEF6055AA2B20CFF4F85C28D571AE0F393A58204BDC6BF1181A24353066FBE0E2C0BD30572B139A6383650F85B4B5F6DBE4F701D432EB81E31CF22B7C291EE97716EED82A0B6A0FF6917896CEDB05513E0F005DF520972C3F56C44B251B12E2C09D6D7ED74EC805420B1460B84BC7385013371679507DBEEE30DA58E6897381CFDEC626AE362DA5F4E54DB56EA8DD6B0BA49572B9F86442C30F5D0F3EAA6B81B9079DDBB743685B4F1472199FB42E0933362E08FE552A155E619FEE24C92D25327D3662AAC6556661FF686DD2778D9CE3A1649FC2B14ED6C80051C5D72DC9AB6C277669A64F9FA882F04BB49C705A150A87FA77B0C1459BC80AA7DC23F3AAFEB0B1C22518B4263A4ECBA3C61B9E5E5A4F076965B901E323DECC2913C19DB20FAC56C31F924258D3D30124A9628E5F0A308486DFEF0A967B423332C3F111F3950A96616EDB462753618962D9E797C1CA32565075A0987CC14E28F237E27D0533CF980D6D5DCB4225693FEF5CD4D2076F5D3E8221834BC6D3FF03050134AC75809EF6738535BDDC9E05CD5DD02CC62CCF99585E2D5D19F317604C29F6E6EDFD29A217D16030C70943AF5C4622617BC7913CA109105167CD82787C9B0EAEE6FD119257FCC9BE9DE529BB4585865251089B17E09A16918E604F504DA179DA8B55B5F9C0C3E7B7FE30D31721B8A8A33485B4A995E70769007C7B98A2CA14013C540DC0B2CF7E4EBFA6BD589A073769188C06788E57AE9B7B392D167B63BFDC11022F281D32B529E3D0D2622E855369903069FDF0E293F7CC650D7B8D89DB05AE1FE4E80D4D5C38D5C8C5501CF0BE0FFC17D089D4EE3E3D5EFBF3A76C344A3127675C70DF18DFBDDA2D30806A5FB07959596D4CA99AA88692E6EAD2B2EF6AAD20F94E1E9754DF6F3BB18E470BE77630E69041B2E97BAF818444FC7AF576AEB0A8B1DE8A34EC115F1D1E455CA8CDC28A029AEF59A6C887D76CBA5499DF0C89AA1B2523FDA2BF3DF0A83C7329614676F8BF8695E17393290FBCC270732F2DF795E0F6955BCB321BEA4571B22894F232E5E2481F44DE3CC270DEA90F760973107DFE689BC29A5AF6402B98F1CF14AB5393C25715A72D975D5137A63B79B5A323EF587B583FA47EE1141F711483F76CA9B6E1FF6DE0426B9B9CAC056A9378383216A73A77CECB0D190FBC6912FDEFD2F21C9E8104C98584E8E1F9AE555FBD6B3BE272DDC17D0E3E7F2E7A14CC6999D08116C576F063BB1ED69941FAFFD576CA6F62EE20119D491206C9756C93E8E02CEA531C94BC83BDF7D2BC0E26C26645E3A16624D7558B16270660148A50278E895A98761EE574C1EC8253D02D262857AA0D4FF0C1C62F6A624A29389B954568C8A8E510FEC35D320EF13F7D2EA8C1A2DDF9A362C93DDC703EB5E9F59BBB6DB00B4CC160E64DA7D8B4C6AE74E703869DB287684D4FEA9D63E324917FB4A97335DAEB500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cleartomark%!FontType3-1.0: IWSHUJ+PingFangSC-Thin19 dict dup begin/FontType 3 def/FontMatrix matrix def/FontBBox {0 0 0 0} readonly def/PaintType 0 def/StrokeWidth 0 def/BuildGlyph{save 3 1 roll1 index dupbegin/ShowProc get 3 1 roll1 index /CharProcs get exch get exec7 -1 roll execendrestore} bind def/BuildChar{1 index /Encoding get exch get1 index /BuildGlyph get exec} bind def/$SP{3 -1 roll dup /SetupSubFont get execdup setfontexch 0 0 2 index stringwidth} bind def/$SPW{4 -1 roll dup /SetupSubFont get execdup setfont3 1 roll 0 0 0 4 2 roll} bind def/$SPTW{5 -1 roll dup /SetupSubFont get execdup setfont4 1 roll neg  0 3 -1 roll 0} bind def/$RP{6 -1 roll dup /SetupSubFont get execdup setfont 5 1 rolltranslate -90 rotate 0 0 0 4 2 roll} bind def/SetupSubFont{dup /PaintType get 1 index /StrokeWidth get3 -1 roll /$SubFontArray get 4 1 roll3 index 3 index getdup /PaintType known{dup /PaintType get}{0}ifelse1 index /StrokeWidth known{1 index /StrokeWidth get}{0}ifelse3 index ne exch 4 index ne or{dup length 2 add dict begin{1 index /FID eq {pop pop}{def}ifelse}forall/StrokeWidth exch def/PaintType exch defcurrentdict enddup /CIDFontName known{/Anonymous exch /CIDFont defineresource}{/Anonymous exch definefont}ifelsedup 4 1 roll put}{ pop pop pop get}ifelse} bind def/ShowProc{systemdict /rectfill known{0 setcachelimit}if6 -1 roll dup /FontMatrix get exch /FontBBox get aload pop4 index transform 4 2 roll5 -1 roll transform 4 2 rollsetcachedevicemoveto dup type /stringtype eq {show}{glyphshow} ifelse} bind def/FontInfo 4 dict dup begin/Registry (Adobe/) def/Ordering (Identity/) def/Supplement 0 defend readonly def/FontName /IWSHUJ+PingFangSC-Thin def/Encoding 256 array 0 1 255 {1 index exch /.notdef put} fordup 33 /cid7533 putreadonly def/$SubFontArray [/AAAAAE+PingFangHK-Thin findfont ] def/CharProcs 3 dictdup /cid0 {(\000) 0 $SP} 2 index /.notdef 2 index put putdup /cid7533 {(\001) 0 $SP} put def end dup /FontName get exch definefont pop%RBIEndFontSubset
+/IWSHUJ+PingFangSC-Thin cguidfix
+/F1.1/IWSHUJ+PingFangSC-Thin renmfont
+[ /CIEBasedABC 4 dict dup begin 
+/WhitePoint [ 0.9505 1.0000 1.0891 ] def 
+/DecodeABC [ 
+{ 1.0 0.0 3 -1 roll 1 index 1 index le { exch pop} { pop } ifelse 
+ 1 index 1 index ge { exch pop } { pop } ifelse < 
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000001010101010101010101010101
+0101010101010101010101010101010101010101010101020202020202020202
+0202020202020202020202020202020202030303030303030303030303030303
+0303030303030304040404040404040404040404040404040404050505050505
+0505050505050505050506060606060606060606060606060607070707070707
+0707070707070708080808080808080808080808090909090909090909090909
+0a0a0a0a0a0a0a0a0a0a0a0b0b0b0b0b0b0b0b0b0b0b0c0c0c0c0c0c0c0c0c0c
+0d0d0d0d0d0d0d0d0d0d0e0e0e0e0e0e0e0e0e0f0f0f0f0f0f0f0f0f10101010
+1010101010111111111111111112121212121212121313131313131313141414
+1414141414151515151515151616161616161616171717171717171818181818
+18181919191919191a1a1a1a1a1a1a1b1b1b1b1b1b1c1c1c1c1c1c1c1d1d1d1d
+1d1d1e1e1e1e1e1e1f1f1f1f1f1f202020202020212121212121222222222223
+2323232323242424242425252525252526262626262727272727282828282829
+292929292a2a2a2a2a2b2b2b2b2b2c2c2c2c2c2d2d2d2d2d2e2e2e2e2e2f2f2f
+2f2f303030303131313131323232323333333333343434343535353535363636
+36373737373838383839393939393a3a3a3a3b3b3b3b3c3c3c3c3d3d3d3d3e3e
+3e3e3f3f3f3f4040404041414141424242424343434444444445454545464646
+4647474748484848494949494a4a4a4b4b4b4b4c4c4c4d4d4d4d4e4e4e4f4f4f
+4f50505051515151525252535353535454545555555656565657575758585859
+59595a5a5a5a5b5b5b5c5c5c5d5d5d5e5e5e5f5f5f6060606061616162626263
+63636464646565656666666767676868686969696a6a6a6b6b6b6c6c6d6d6d6e
+6e6e6f6f6f707070717171727273737374747475757576767677777878787979
+797a7a7b7b7b7c7c7c7d7d7e7e7e7f7f7f808081818182828283838484848585
+86868687878888888989898a8a8b8b8b8c8c8d8d8d8e8e8f8f90909091919292
+9293939494949595969697979798989999999a9a9b9b9c9c9c9d9d9e9e9f9f9f
+a0a0a1a1a2a2a3a3a3a4a4a5a5a6a6a6a7a7a8a8a9a9aaaaabababacacadadae
+aeafafb0b0b0b1b1b2b2b3b3b4b4b5b5b6b6b6b7b7b8b8b9b9bababbbbbcbcbd
+bdbebebebfbfc0c0c1c1c2c2c3c3c4c4c5c5c6c6c7c7c8c8c9c9cacacbcbcccc
+cdcdcececfcfd0d0d1d1d2d2d3d3d4d4d5d5d6d6d7d7d8d8d9d9dadadbdcdcdd
+dddededfdfe0e0e1e1e2e2e3e3e4e4e5e6e6e7e7e8e8e9e9eaeaebebecededee
+eeefeff0f0f1f1f2f3f3f4f4f5f5f6f6f7f8f8f9f9fafafbfcfcfdfdfefeffff
+>  dup length 1 sub 3 -1 roll mul dup dup floor cvi exch ceiling 
+ cvi 3 index exch get 4 -1 roll 3 -1 roll get
+ dup 3 1 roll sub 3 -1 roll dup floor cvi sub mul add 255 div } bind 
+
+{ 1.0 0.0 3 -1 roll 1 index 1 index le { exch pop} { pop } ifelse 
+ 1 index 1 index ge { exch pop } { pop } ifelse < 
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000001010101010101010101010101
+0101010101010101010101010101010101010101010101020202020202020202
+0202020202020202020202020202020202030303030303030303030303030303
+0303030303030304040404040404040404040404040404040404050505050505
+0505050505050505050506060606060606060606060606060607070707070707
+0707070707070708080808080808080808080808090909090909090909090909
+0a0a0a0a0a0a0a0a0a0a0a0b0b0b0b0b0b0b0b0b0b0b0c0c0c0c0c0c0c0c0c0c
+0d0d0d0d0d0d0d0d0d0d0e0e0e0e0e0e0e0e0e0f0f0f0f0f0f0f0f0f10101010
+1010101010111111111111111112121212121212121313131313131313141414
+1414141414151515151515151616161616161616171717171717171818181818
+18181919191919191a1a1a1a1a1a1a1b1b1b1b1b1b1c1c1c1c1c1c1c1d1d1d1d
+1d1d1e1e1e1e1e1e1f1f1f1f1f1f202020202020212121212121222222222223
+2323232323242424242425252525252526262626262727272727282828282829
+292929292a2a2a2a2a2b2b2b2b2b2c2c2c2c2c2d2d2d2d2d2e2e2e2e2e2f2f2f
+2f2f303030303131313131323232323333333333343434343535353535363636
+36373737373838383839393939393a3a3a3a3b3b3b3b3c3c3c3c3d3d3d3d3e3e
+3e3e3f3f3f3f4040404041414141424242424343434444444445454545464646
+4647474748484848494949494a4a4a4b4b4b4b4c4c4c4d4d4d4d4e4e4e4f4f4f
+4f50505051515151525252535353535454545555555656565657575758585859
+59595a5a5a5a5b5b5b5c5c5c5d5d5d5e5e5e5f5f5f6060606061616162626263
+63636464646565656666666767676868686969696a6a6a6b6b6b6c6c6d6d6d6e
+6e6e6f6f6f707070717171727273737374747475757576767677777878787979
+797a7a7b7b7b7c7c7c7d7d7e7e7e7f7f7f808081818182828283838484848585
+86868687878888888989898a8a8b8b8b8c8c8d8d8d8e8e8f8f90909091919292
+9293939494949595969697979798989999999a9a9b9b9c9c9c9d9d9e9e9f9f9f
+a0a0a1a1a2a2a3a3a3a4a4a5a5a6a6a6a7a7a8a8a9a9aaaaabababacacadadae
+aeafafb0b0b0b1b1b2b2b3b3b4b4b5b5b6b6b6b7b7b8b8b9b9bababbbbbcbcbd
+bdbebebebfbfc0c0c1c1c2c2c3c3c4c4c5c5c6c6c7c7c8c8c9c9cacacbcbcccc
+cdcdcececfcfd0d0d1d1d2d2d3d3d4d4d5d5d6d6d7d7d8d8d9d9dadadbdcdcdd
+dddededfdfe0e0e1e1e2e2e3e3e4e4e5e6e6e7e7e8e8e9e9eaeaebebecededee
+eeefeff0f0f1f1f2f3f3f4f4f5f5f6f6f7f8f8f9f9fafafbfcfcfdfdfefeffff
+>  dup length 1 sub 3 -1 roll mul dup dup floor cvi exch ceiling 
+ cvi 3 index exch get 4 -1 roll 3 -1 roll get
+ dup 3 1 roll sub 3 -1 roll dup floor cvi sub mul add 255 div } bind 
+
+{ 1.0 0.0 3 -1 roll 1 index 1 index le { exch pop} { pop } ifelse 
+ 1 index 1 index ge { exch pop } { pop } ifelse < 
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000001010101010101010101010101
+0101010101010101010101010101010101010101010101020202020202020202
+0202020202020202020202020202020202030303030303030303030303030303
+0303030303030304040404040404040404040404040404040404050505050505
+0505050505050505050506060606060606060606060606060607070707070707
+0707070707070708080808080808080808080808090909090909090909090909
+0a0a0a0a0a0a0a0a0a0a0a0b0b0b0b0b0b0b0b0b0b0b0c0c0c0c0c0c0c0c0c0c
+0d0d0d0d0d0d0d0d0d0d0e0e0e0e0e0e0e0e0e0f0f0f0f0f0f0f0f0f10101010
+1010101010111111111111111112121212121212121313131313131313141414
+1414141414151515151515151616161616161616171717171717171818181818
+18181919191919191a1a1a1a1a1a1a1b1b1b1b1b1b1c1c1c1c1c1c1c1d1d1d1d
+1d1d1e1e1e1e1e1e1f1f1f1f1f1f202020202020212121212121222222222223
+2323232323242424242425252525252526262626262727272727282828282829
+292929292a2a2a2a2a2b2b2b2b2b2c2c2c2c2c2d2d2d2d2d2e2e2e2e2e2f2f2f
+2f2f303030303131313131323232323333333333343434343535353535363636
+36373737373838383839393939393a3a3a3a3b3b3b3b3c3c3c3c3d3d3d3d3e3e
+3e3e3f3f3f3f4040404041414141424242424343434444444445454545464646
+4647474748484848494949494a4a4a4b4b4b4b4c4c4c4d4d4d4d4e4e4e4f4f4f
+4f50505051515151525252535353535454545555555656565657575758585859
+59595a5a5a5a5b5b5b5c5c5c5d5d5d5e5e5e5f5f5f6060606061616162626263
+63636464646565656666666767676868686969696a6a6a6b6b6b6c6c6d6d6d6e
+6e6e6f6f6f707070717171727273737374747475757576767677777878787979
+797a7a7b7b7b7c7c7c7d7d7e7e7e7f7f7f808081818182828283838484848585
+86868687878888888989898a8a8b8b8b8c8c8d8d8d8e8e8f8f90909091919292
+9293939494949595969697979798989999999a9a9b9b9c9c9c9d9d9e9e9f9f9f
+a0a0a1a1a2a2a3a3a3a4a4a5a5a6a6a6a7a7a8a8a9a9aaaaabababacacadadae
+aeafafb0b0b0b1b1b2b2b3b3b4b4b5b5b6b6b6b7b7b8b8b9b9bababbbbbcbcbd
+bdbebebebfbfc0c0c1c1c2c2c3c3c4c4c5c5c6c6c7c7c8c8c9c9cacacbcbcccc
+cdcdcececfcfd0d0d1d1d2d2d3d3d4d4d5d5d6d6d7d7d8d8d9d9dadadbdcdcdd
+dddededfdfe0e0e1e1e2e2e3e3e4e4e5e6e6e7e7e8e8e9e9eaeaebebecededee
+eeefeff0f0f1f1f2f3f3f4f4f5f5f6f6f7f8f8f9f9fafafbfcfcfdfdfefeffff
+>  dup length 1 sub 3 -1 roll mul dup dup floor cvi exch ceiling 
+ cvi 3 index exch get 4 -1 roll 3 -1 roll get
+ dup 3 1 roll sub 3 -1 roll dup floor cvi sub mul add 255 div } bind 
+] def 
+/MatrixABC [ 0.4124 0.2126 0.0193 0.3576 0.7151 0.1192 0.1805 0.0722 0.9508 ] def 
+/RangeLMN [ 0.0 0.9505 0.0 1.0000 0.0 1.0891 ] def 
+end ] /Cs1 exch/ColorSpace dr pop
+[ /CIEBasedABC 4 dict dup begin 
+/WhitePoint [ 0.9505 1.0000 1.0891 ] def 
+/DecodeABC [ { 1.8008  exp } bind { 1.8008  exp } bind { 1.8008  exp } bind ] def 
+/MatrixABC [ 0.4295 0.2318 0.0204 0.3278 0.6722 0.1111 0.1933 0.0960 0.9578 ] def 
+/RangeLMN [ 0.0 0.9505 0.0 1.0000 0.0 1.0891 ] def 
+end ] /Cs2 exch/ColorSpace dr pop
+%%EndPageSetup
+0.60000002 i
+/Cs1 SC
+0 0 0 sc
+q
+119 0 m
+184.72188 0 238 53.278114 238 119 c
+238 184.72188 184.72188 238 119 238 c
+53.278114 238 0 184.72188 0 119 c
+0 53.278114 53.278114 0 119 0 c
+h
+W*
+0 0 238 238 rc
+-10 248 m
+248 248 l
+248 -10 l
+-10 -10 l
+h
+f
+Q
+/Cs2 SC
+1 1 1 sc
+q
+0 0 238 238 rc
+2 0 0 -2 34.16468 236 cm
+/F1.1[ 89 0 0 -89 0 0]sf
+0.74789917 94 m
+(!)s
+ep
+end

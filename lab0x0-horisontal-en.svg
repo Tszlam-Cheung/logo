@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="307px" height="119px" viewBox="0 0 307 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>lab0x0-horisontal-en</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logos" transform="translate(-349.000000, -190.000000)">
+            <g id="normal-size" transform="translate(29.000000, 28.000000)">
+                <g id="horisontal" transform="translate(320.000000, 124.000000)">
+                    <g id="horisontal-en" transform="translate(0.000000, 38.000000)">
+                        <polygon id="Rectangle-Copy-3" fill="#000000" points="0 0 307 0 307 67.8320312 307 119 0 119"></polygon>
+                        <g id="Group" transform="translate(1.909091, 36.111111)">
+                            <text id="x-copy" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="27.0230996" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="133.892354" y="32">x</tspan>
+                            </text>
+                            <polyline id="Combined-Shape" stroke="#FFFFFF" stroke-width="2.0999999" stroke-linecap="square" transform="translate(187.000000, 24.018337) scale(1, -1) translate(-187.000000, -24.018337) " points="182.026207 23.6513906 191.973793 23.6513906 192 23.6513906 192 23.5183365 191.973793 23.5183365 182.026207 23.5183365 182 23.5183365 182 23.6513906"></polyline>
+                            <polyline id="Combined-Shape" stroke="#FFFFFF" stroke-width="2.0999999" stroke-linecap="square" transform="translate(95.000000, 24.018337) scale(1, -1) translate(-95.000000, -24.018337) " points="90.0262069 23.6513906 99.9737931 23.6513906 100 23.6513906 100 23.5183365 99.9737931 23.5183365 90.0262069 23.5183365 90 23.5183365 90 23.6513906"></polyline>
+                            <text id="0-0" font-family="AndaleMono, Andale Mono" font-size="40.56" font-weight="normal" letter-spacing="-8.78799968" fill="#FFFFFF">
+                                <tspan x="105.097512" y="37.8888889">0  </tspan>
+                                <tspan x="151.753395" y="37.8888889">0</tspan>
+                            </text>
+                        </g>
+                        <text id="LAB-ZERO" font-family="AndaleMono, Andale Mono" font-size="39" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="17.3847656" y="74">LAB</tspan>
+                            <tspan x="87.5961914" y="74" letter-spacing="85"> </tspan>
+                            <tspan x="196" y="74">ZERO</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

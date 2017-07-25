@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="255px" height="255px" viewBox="0 0 255 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>lab0x0-main-en-zh</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="251" height="251"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logos" transform="translate(-59.000000, -141.000000)">
+            <g id="normal-size" transform="translate(29.000000, 28.000000)">
+                <g id="main" transform="translate(32.000000, 67.000000)">
+                    <g id="main-en-zh" transform="translate(0.000000, 48.000000)">
+                        <g id="Rectangle">
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#FFFFFF" stroke-width="1.3" x="-0.65" y="-0.65" width="252.3" height="252.3"></rect>
+                        </g>
+                        <text id="零" font-family="PingFangSC-Thin, PingFang SC" font-size="90.6600037" font-weight="300" fill="#FFFFFF">
+                            <tspan x="19" y="158">零</tspan>
+                        </text>
+                        <g id="Group-7" transform="translate(151.000000, 67.000000)" font-weight="normal" fill="#FFFFFF">
+                            <g id="Group" transform="translate(26.000000, 41.000000)" font-size="27.0230996" font-family="ArialRoundedMTBold, Arial Rounded MT Bold">
+                                <text id="x-copy">
+                                    <tspan x="3.89235351" y="26">x</tspan>
+                                </text>
+                            </g>
+                            <text id="0-0" font-family="AndaleMono, Andale Mono" font-size="40.56" letter-spacing="-8.78799968">
+                                <tspan x="1.07900072" y="73">0  </tspan>
+                                <tspan x="47.7348845" y="73">0</tspan>
+                            </text>
+                            <text id="LAB-ZERO" font-family="AndaleMono, Andale Mono" font-size="37" line-spacing="38">
+                                <tspan x="3.69458008" y="29.1806641">LAB</tspan>
+                                <tspan x="70.3054199" y="34" font-size="30"></tspan>
+                                <tspan x="37" y="72" font-size="30" letter-spacing="-12"> </tspan>
+                                <tspan x="0.994140625" y="110" font-size="30">ZERO</tspan>
+                            </text>
+                        </g>
+                        <path d="M127.05,62.9813627 L127.05,188.0348" id="Line" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

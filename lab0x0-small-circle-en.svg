@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="119px" viewBox="0 0 120 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>lab0x0-small-circle-en</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logos" transform="translate(-914.000000, -146.000000)">
+            <g id="small-size" transform="translate(889.000000, 28.000000)">
+                <g id="Group-2-Copy" transform="translate(10.000000, 74.000000)">
+                    <g id="small-circle-en" transform="translate(15.206897, 44.000000)">
+                        <circle id="Oval" fill="#000000" cx="59.5" cy="59.5" r="59.5"></circle>
+                        <text id="LAB" font-family="AndaleMono, Andale Mono" font-size="33" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="30.5951538" y="92">LAB</tspan>
+                        </text>
+                        <g id="Group" transform="translate(24.909091, 21.111111)" fill="#FFFFFF" font-weight="normal">
+                            <text id="x-copy" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="27.0230996">
+                                <tspan x="28.8923535" y="32">x</tspan>
+                            </text>
+                            <text id="0-0" font-family="AndaleMono, Andale Mono" font-size="40.56" letter-spacing="-8.78799968">
+                                <tspan x="0.0975116569" y="37.8888889">0  </tspan>
+                                <tspan x="46.7533954" y="37.8888889">0</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

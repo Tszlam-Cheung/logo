@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="119px" viewBox="0 0 119 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>lab0x0-small-circle-zh</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logos" transform="translate(-919.000000, -280.000000)">
+            <g id="small-size" transform="translate(889.000000, 28.000000)">
+                <g id="small-circle-zh" transform="translate(30.000000, 252.000000)">
+                    <circle id="Oval" fill="#000000" cx="59.5" cy="59.5" r="59.5"></circle>
+                    <text id="零" font-family="PingFangSC-Thin, PingFang SC" font-size="89" font-weight="300" fill="#FFFFFF">
+                        <tspan x="17.8302397" y="95">零</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
